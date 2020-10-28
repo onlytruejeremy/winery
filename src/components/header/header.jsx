@@ -5,9 +5,11 @@ function Header() {
     return (
         <div className="header">
             <div className="header_container">
-                <h3 className="logo">
+                <NavLink className="logolink" to="/home">
+                    <h3 className="logo">
             YourWinery
             </h3>
+                </NavLink>
             <div className="header_links">
                 <ul>
                     <li>

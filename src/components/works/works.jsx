@@ -1,7 +1,9 @@
 import React from 'react'
 import "./works.css"
+
 function Works() {
     return (
+        
         <div className="works">
             <h3 className="title">
                 The Journey Begins
@@ -39,6 +41,7 @@ function Works() {
                 </div>
             </div>
         </div>
+        
     )
 }
 

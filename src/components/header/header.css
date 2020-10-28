@@ -21,6 +21,10 @@ a {
   color: white;
 }
 
+a:hover {
+  border-bottom: 3px solid white;
+}
+
 .header_links > ul {
   display: flex;
   justify-content: center;
@@ -28,4 +32,8 @@ a {
 }
 .header_links > ul > li {
   margin: 0 20px;
+}
+
+.logolink:hover {
+  border: none;
 }
