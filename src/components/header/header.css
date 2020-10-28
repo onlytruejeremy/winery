@@ -1,0 +1,31 @@
+.header {
+  overflow: auto;
+  background-color: #db6d01;
+  height: 70px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20%;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_links > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_links > ul > li {
+  margin: 0 20px;
+}

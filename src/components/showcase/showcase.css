@@ -1,0 +1,24 @@
+.showcase {
+  margin: 100px 20%;
+  height: 400px;
+  overflow: hidden;
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.showcase-right {
+  display: flex;
+  justify-content: center;
+}
+.showcase-right img {
+  height: 450px;
+  object-fit: contain;
+  justify-self: flex-end;
+}
+
+.showcase-left p {
+  line-height: 1.5rem;
+}

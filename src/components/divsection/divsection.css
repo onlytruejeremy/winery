@@ -1,0 +1,9 @@
+.divsection {
+  margin: 100px 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.divsection img {
+  height: 300px;
+}
