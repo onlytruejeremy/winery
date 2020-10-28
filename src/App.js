@@ -4,6 +4,7 @@ import Header from "./components/header/header"
 import Showcase from './components/showcase/showcase';
 import Works from './components/works/works';
 import DivSection from "./components/divsection/divsection"
+import Footer from "./components/footer/footer"
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Showcase/>
       <Works/>
       <DivSection/>
+      <Footer/>
     </div>
   );
 }

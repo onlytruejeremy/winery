@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  background-color: #db6d01;
+  overflow: hidden;
+  height: 70px;
+  border-top: 2px solid black;
+}
+.footer_container {
+  margin: 20px 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  color: black;
+  margin: 0 20px;
+}
