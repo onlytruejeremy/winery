@@ -34,7 +34,7 @@ function Works() {
                     </h3>
                     
                     <div className="card-text">
-                        Receive your wine and let the journey start.
+                        Receive your curated wine and embark on your journey.
                     </div>
                 </div>
             </div>
